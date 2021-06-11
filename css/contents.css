@@ -1,0 +1,120 @@
+#contents>#cont1{
+    width: 320px;
+    height: 200px;
+    background-color: #ffffff;
+    float: left;
+}
+#cont1>#tab{
+    width: 320px;
+    height: 195px;
+    background-color: #ffffff;
+}
+#cont1>#tab>#tab-btn{
+    width: 320px;
+    height: 30px;
+    background-color: #ffffff;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#cont1>#tab>#tab-btn>a{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#cont1>#tab>#tab-contents{
+    width: 320px;
+    height: 160px;
+    background-color: #ffffff;
+}
+#tab-contents>#notice{
+    width: 320px;
+    height: 155px;
+    background-color: #ffffff;
+   
+}
+#notice>ul{
+    width: 320px;
+    height: 150px;
+    background-color: #ffffff;
+}
+#notice>ul>li>a{
+    width: 315px;
+    height: 35px;
+    background-color: #ffffff;
+    display: block;
+    font-size: 12px;
+    position: relative;
+
+}
+#notice>ul>li>a>span:first-child{
+    width: 250px;
+    height: 35px;
+    background-color: #ffffff;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#notice>ul>li>a>span:nth-child(2){
+    width: 65px;
+    height: 35px;
+    background-color:#ffffff;
+    float: left;
+    position: absolute;
+    left:250px;
+    top:0px;
+    
+}
+#tab-contents>#gallery{
+    width: 320px;
+    height: 155px;
+    background-color: #ffffff;
+    display: none;
+}
+#gallery>ul{
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+#gallery>ul>li{
+    float: left;
+    margin-right: 10px;
+}
+#gallery>ul>li>a>img{
+    width: 80px;
+    height: 80px;
+}
+#contents>#cont2{
+    width: 240px;
+    height: 200px;
+    background-color: #ffffff;
+    float: left;
+}
+#contents>#cont2>img{
+    width : 220px;
+    height: 180px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#contents>#cont3{
+    width: 240px;
+    height: 200px;
+    background-color: #ffffff;
+    float: left;
+}
+#contents>#cont3>img{
+    width : 220px;
+    height: 180px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}

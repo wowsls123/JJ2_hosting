@@ -1,0 +1,42 @@
+
+#header>#logo>img{
+    position: relative;
+    left: 20px;
+    top : 20px;
+
+}
+
+#nav>#gnb{
+    position :relative;
+    left: 20px;
+    top: 20px;
+}
+#gnb>li>a{
+    width: 150px;
+    height: 40px;
+    background-color: #ffffff;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color:black;
+}
+#gnb li a:hover{
+    background-color: #222328;
+    color: #ffffff;
+}
+#lnb>li>a{
+    width: 150px;
+    height: 40px;
+    background-color:#ffffff;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color:black;
+}
+#lnb{
+    display:none;
+}

@@ -1,0 +1,44 @@
+#popup{
+    width: 500px;
+    height: 500px;
+    background: url("../images/popup_bg.jpg") no-repeat 0 0;
+    z-index: 9;
+    position: fixed;
+    left: 300px;
+    top: 50px;
+
+
+}
+
+#popup>h2{
+    margin-top: 47px;
+    font-size: 23px;
+}
+
+#popup>h3{
+    font-size: 35px;
+}
+#popup>h2,
+#popup>h3{
+    text-align: center;
+}
+#popup>figure{
+    margin: 15px 0;
+    text-align: center;
+}
+#closeBtn{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    right: 11px;
+    bottom: 11px;
+}
+#popup>dl{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+#popup>dl>dd{
+    display: inline-block;
+}
