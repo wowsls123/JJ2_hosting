@@ -1,0 +1,114 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+address{
+  font-style: normal;
+}
+small{
+  font-size: 1em;
+}
+.hidden{
+  position: absolute;
+  left: -1000px;
+}
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+#header{
+  width:100%;
+  height: 600px;
+  background: url(../images/bg.jpg) center center no-repeat;
+  text-align: center;
+
+}
+#header hgroup{
+
+  display: block;
+  padding-top: 120px;
+  color: white;
+}
+#header hgroup h1{
+  font-size: 70px;
+
+}
+#header hgroup h2{
+  font-size: 32px;
+  font-weight:normal;
+
+}
+#gnb{
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+  /*position: relative;
+  bottom : 30px;*/
+  /*position: absolute;
+  top: 550px;
+  left: 50%;
+  margin-left: -600px;*/
+  position: absolute;
+  top: 567px;
+  left: calc(50% - 600px);
+}
+#gnb ul li{
+  width: 25%;
+
+  float:left;
+
+
+}
+#gnb ul li a{
+  background-color: #dd5661;
+  text-align: center;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  color: #fff;
+
+
+}
+#gnb ul li a:hover{
+  cursor:pointer;
+  background-color: beige;
+}
+#content{
+  width: 1200px;
+  margin: 100px auto 50px;
+}
+#content h2{
+
+}
+#content article{
+
+}
+#content h3{
+  margin: 20px 0;
+}
+#content figure{
+  margin-bottom: 20px;
+}
+
+#footer{
+  background:#6c25fc;
+  color:#fff;
+  text-align: center;
+  padding: 50px 0;
+}
+#footer p{
+  margin: 20px 0;
+}
+#footer address{
+
+}
+#footer small{
+
+}
